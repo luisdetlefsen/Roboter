@@ -36,7 +36,6 @@ public class KeyboardListener extends Listener implements NativeKeyListener {
         }
               
         if(nativeEvent.getKeyCode() == 67){ //f9
-            System.out.println(eventRecorder.isPlaying() + " is playing");
             reproduceSteps();
             return;
         }
